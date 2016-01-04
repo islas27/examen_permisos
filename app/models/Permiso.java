@@ -20,6 +20,7 @@ public class Permiso extends Model {
     @Column(name="descripcion_permiso")
     public String descripcionPermiso;
 
+    @Override
     public String toString(){
         return nombrePermiso;
     }
